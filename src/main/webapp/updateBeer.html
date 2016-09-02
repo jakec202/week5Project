@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body background="http://www.hrhero.com/hl/articles/wp-content/uploads/2014/02/BackgroundCheck.jpg">
+
+	<h2 align="center">Update a Beer</h2>
+	<form action="updateBeer" method="post" align="center">
+		Beer ID#: 
+		<br> 
+		<input placeholder="0" type="number" min=0
+			name="beer_id" value=""><br>
+			
+		Beer Name: 
+		<br> 
+		<input placeholder="name" type="text" name="name" value="">
+		<br>
+		
+		Country of Origin: <br> 
+		<input placeholder="Country of Origin" type="text"
+			name="country_of_origin" value=""><br> 
+			
+		Style: <br> 
+		<input	placeholder="style" type="text" min=0 name="style" value="">
+		<br> 
+		
+		ABV: 
+		<br> 
+		<input placeholder="00.0" type="number" min=0 step="any" name="abv" value="">
+		<br>
+		<button type="submit" class="btn btn-primary">
+			<span class="glyphicon glyphicon-pencil">Update
+		</button>
+	</form>
+	<br>
+	<a href="bindex.html"><button type="button" class="btn btn-default btn-lg">Home</button></a>
+
+</body>
+</html>
